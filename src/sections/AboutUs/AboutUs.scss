@@ -1,0 +1,43 @@
+@import '../../mixins/mixins.scss';
+
+.about {
+	margin-top: 150px;
+	display: flex;
+	justify-content: space-between;
+	gap: 20px;
+	align-items: center;
+
+	&__column {
+		position: relative;
+		flex-basis: 45%;
+	}
+
+	&__video {
+		position: absolute;
+		right: 0;
+		bottom: 0;
+	}
+
+	&__text {
+		@include body1;
+
+		margin: 12px 0 24px;
+	}
+
+	&__list {
+		display: flex;
+		flex-direction: column;
+		gap: 14px;
+		margin-bottom: 32px;
+
+		li {
+			padding-left: 10px;
+
+			&::before {
+				content: url('/icons/list-item.svg');
+				position: relative;
+				left: -10px;
+			}
+		}
+	}
+}

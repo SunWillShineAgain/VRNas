@@ -1,0 +1,28 @@
+header {
+	padding: 30px 0;
+	position: fixed;
+	top: 0;
+	width: 100%;
+	transition: all 0.2s ease-in-out;
+	margin-bottom: 110px;
+	z-index: 1000;
+
+	.container {
+		display: flex;
+		justify-content: space-between;
+		align-items: center;
+	}
+
+	&.scrolled {
+		padding: 15px;
+		backdrop-filter: blur(10px);
+		background-color: rgba(37, 37, 50, 0.7);
+	}
+
+	.back-layer {
+		position: absolute;
+		top: 0;
+		right: 0;
+		background-image: url(/public/layer.png) no-repeat;
+	}
+}

@@ -1,0 +1,49 @@
+@import '../../mixins/mixins.scss';
+
+.articles {
+	margin-top: 0;
+
+	&__top {
+		display: flex;
+		justify-content: space-between;
+
+		button {
+			padding: 12px 24px;
+			align-self: flex-end;
+		}
+	}
+
+	&__bottom {
+		display: flex;
+		margin-top: 100px;
+		gap: 50px;
+	}
+
+	&__popular {
+		flex-basis: 55%;
+		width: 55%;
+		position: relative;
+
+		&.gradient-bg:before {
+			top: 29%;
+			left: 5%;
+			width: 81%;
+		}
+	}
+
+	&__slider {
+		height: 420px;
+		width: 100%;
+		background-color: cornflowerblue;
+	}
+
+	&__recent {
+		flex-basis: 45%;
+	}
+
+	&__title {
+		@include h6;
+
+		margin-bottom: 32px;
+	}
+}

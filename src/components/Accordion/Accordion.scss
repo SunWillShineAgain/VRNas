@@ -1,0 +1,47 @@
+@import '../../mixins/mixins.scss';
+
+.accordion {
+	display: flex;
+	flex-direction: column;
+	gap: 48px;
+
+	&__item {
+		&.active &-text {
+			grid-template-rows: 1fr;
+		}
+
+		&.active &-title svg {
+			transform: rotate(-180deg);
+		}
+
+		&-title {
+			font-size: var(--h7);
+			padding-bottom: 12px;
+			border-bottom: 1px solid rgba(255, 255, 255, 0.35);
+			display: flex;
+			justify-content: space-between;
+			align-items: center;
+			cursor: pointer;
+
+			svg {
+				transform-origin: center center;
+				transition: transform 0.3s ease;
+			}
+		}
+
+		&-text {
+			@include body3;
+
+			display: grid;
+			grid-template-rows: 0fr;
+			transition: grid-template-rows 0.3s ease;
+			overflow: hidden;
+
+			p {
+				min-height: 0;
+			}
+
+			margin-top: 12px;
+		}
+	}
+}

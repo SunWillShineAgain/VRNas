@@ -1,0 +1,64 @@
+@import '../../mixins/mixins.scss';
+
+.articles {
+	&__slider {
+		img {
+			width: 100%;
+			object-fit: cover;
+		}
+
+		&-info {
+			position: absolute;
+			bottom: 0;
+			padding: 24px;
+			background: linear-gradient(
+				0deg,
+				rgba(2, 0, 36, 1) 0%,
+				rgba(1, 0, 11, 0.5) 63%,
+				rgba(0, 0, 0, 0) 100%
+			);
+
+			.row {
+				display: flex;
+				gap: 50px;
+			}
+		}
+
+		&-title {
+			@include h5;
+
+			a {
+				transition: opacity 0.3s ease;
+			}
+
+			a:hover {
+				opacity: 0.7;
+			}
+		}
+	}
+}
+.swiper {
+	height: 100%;
+	overflow: initial !important;
+
+	.swiper-pagination {
+		display: flex;
+		justify-content: center;
+		gap: 3px;
+	}
+	.swiper-pagination.swiper-pagination-bullets {
+		bottom: -50px;
+	}
+	.swiper-pagination-bullet {
+		width: 9px;
+		height: 3px;
+		border-radius: 32px;
+		background: rgba(255, 255, 255, 0.3);
+		transition: all 0.2s ease;
+
+		&-active {
+			width: 17px;
+			background: var(--color-white);
+		}
+	}
+}

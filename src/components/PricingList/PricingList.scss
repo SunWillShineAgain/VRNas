@@ -1,0 +1,40 @@
+@import '../../mixins/mixins.scss';
+
+.pricing {
+	&__list {
+		position: relative;
+		padding: 55px 60px 55px 42px;
+		display: flex;
+		flex-direction: column;
+		gap: 32px;
+
+		&-item {
+			display: flex;
+			gap: 16px;
+
+			&-icon {
+				min-width: 48px;
+				height: 48px;
+			}
+
+			&-descr {
+				@include body3;
+			}
+
+			&-title {
+				@include h9;
+			}
+		}
+
+		&::after {
+			content: '';
+			position: absolute;
+			right: 0;
+			top: 50%;
+			transform: translateY(-50%);
+			height: 85%;
+			width: 1px;
+			background: rgba(255, 255, 255, 0.1);
+		}
+	}
+}

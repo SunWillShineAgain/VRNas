@@ -1,0 +1,20 @@
+.top-menu {
+	display: flex;
+	gap: 64px;
+
+	a {
+		text-decoration: none;
+		font-size: var(--body1);
+		font-weight: var(--light);
+		color: var(--color-grey2);
+		transition: color 0.3s ease-in-out;
+
+		&.active {
+			color: var(--color-success);
+		}
+
+		&:hover {
+			color: var(--white);
+		}
+	}
+}

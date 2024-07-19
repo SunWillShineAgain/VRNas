@@ -1,0 +1,17 @@
+@import '../../mixins/mixins.scss';
+
+.service {
+	margin-top: 150px;
+	padding-bottom: 120px;
+
+	&__row {
+		display: flex;
+		justify-content: space-between;
+	}
+
+	&__text {
+		@include body1;
+
+		flex-basis: 50%;
+	}
+}

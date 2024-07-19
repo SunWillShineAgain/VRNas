@@ -1,0 +1,69 @@
+.hero {
+	display: flex;
+	align-items: center;
+	justify-content: space-between;
+	gap: 20px;
+	position: relative;
+
+	&__column {
+		flex-basis: 45%;
+		display: flex;
+		flex-direction: column;
+		position: relative;
+
+		button {
+			margin-bottom: 42px;
+		}
+	}
+
+	&__title {
+		font-size: var(--h1);
+		margin-bottom: 12px;
+		font-weight: var(--bold);
+	}
+
+	&__text {
+		font-size: var(--body1);
+		color: var(--color-grey2);
+		font-weight: var(--light);
+		line-height: 1.75;
+		margin-bottom: 32px;
+	}
+
+	&__clients {
+		display: flex;
+		align-items: center;
+		margin-left: 12px;
+	}
+
+	&__client {
+		margin-left: -12px;
+
+		&-text {
+			color: var(--color-grey2);
+			margin-left: 18px;
+
+			span {
+				font-weight: var(--semibold);
+				color: var(--color-white);
+				position: relative;
+
+				&::after {
+					content: url(/underline.png);
+					position: absolute;
+					left: -6px;
+					bottom: -6px;
+					z-index: -1;
+				}
+			}
+		}
+	}
+
+	&::before {
+		content: url(/web.png);
+		position: absolute;
+		left: -34%;
+		top: 0;
+		z-index: -1;
+	}
+}

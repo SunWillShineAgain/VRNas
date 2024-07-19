@@ -1,0 +1,12 @@
+@import '../../mixins/mixins.scss';
+
+.testimonial {
+	margin-top: 250px;
+	text-align: center;
+
+	&__bg {
+		margin-top: -200px;
+		position: relative;
+		display: flex;
+	}
+}

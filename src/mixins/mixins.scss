@@ -1,0 +1,54 @@
+@mixin body1 {
+	font-size: var(--body1);
+	color: var(--color-grey2);
+	line-height: 1.75;
+	font-weight: var(--light);
+}
+
+@mixin body2 {
+	font-size: var(--body2);
+	color: var(--color-grey1);
+	font-weight: var(--regular);
+	line-height: 2;
+}
+
+@mixin body3 {
+	font-size: var(--body3);
+	color: var(--color-grey1);
+	font-weight: var(--regular);
+	line-height: 1.75;
+}
+
+@mixin body4 {
+	font-size: var(--body4);
+	color: var(--color-grey2);
+	font-weight: var(--regular);
+	line-height: 1.75;
+}
+
+@mixin h3 {
+	font-size: var(--h3);
+	font-weight: var(--semibold);
+	line-height: 1.5;
+}
+
+@mixin h5 {
+	font-size: var(--h5);
+	font-weight: var(--semibold);
+}
+
+@mixin h6 {
+	font-size: var(--h6);
+	font-weight: var(--semibold);
+}
+
+@mixin h7 {
+	font-size: var(--h7);
+	font-weight: var(--regular);
+}
+
+@mixin h9 {
+	font-size: var(--h9);
+	font-weight: var(--regular);
+	margin-bottom: 12px;
+}
