@@ -2,6 +2,7 @@
 	"name": "vrnas",
 	"private": true,
 	"version": "0.0.0",
+	"homepage": "https://sunwillshineagain.github.io",
 	"type": "module",
 	"scripts": {
 		"dev": "vite",
