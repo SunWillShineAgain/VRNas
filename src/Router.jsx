@@ -4,9 +4,14 @@ import AboutPage from './pages/AboutPage.jsx'
 import ServicePage from './pages/ServicePage.jsx'
 import Page from './pages/Page.jsx'
 import BlogPage from './pages/BlogPage.jsx'
+import AppLayout from './layout/AppLayout.jsx'
 
 export const router = createBrowserRouter([
 	{
+		// element: <AppLayout />,
+		// errorElement: 'пиздА!',
+		// children: [
+		// 	{
 		path: '/',
 		element: <MainPage />,
 	},
@@ -26,4 +31,6 @@ export const router = createBrowserRouter([
 		path: '/blog',
 		element: <BlogPage />,
 	},
+	// ],
+	// },
 ])
