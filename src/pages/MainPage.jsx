@@ -12,7 +12,7 @@ import Partners from '../sections/Partners/Partners'
 import Articles from '../sections/Articles/Articles'
 import Subscribe from '../sections/Subscribe/Subscribe'
 
-const Main = () => {
+const MainPage = () => {
 	return (
 		<Layout>
 			<Hero />
@@ -30,4 +30,4 @@ const Main = () => {
 	)
 }
 
-export default Main
+export default MainPage
