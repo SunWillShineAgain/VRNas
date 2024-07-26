@@ -8,9 +8,9 @@ import BlogPage from './pages/BlogPage.jsx'
 import Page from './pages/Page.jsx'
 
 function App() {
-	// return <RouterProvider router={router} />
+	// return <RouterProvider router={router} basename='/VRNas/' />
 	return (
-		<BrowserRouter>
+		<BrowserRouter basename='/VRNas/'>
 			<Routes>
 				<Route path='/' exact element={<MainPage />} />
 				<Route path='/service' element={<ServicePage />} />

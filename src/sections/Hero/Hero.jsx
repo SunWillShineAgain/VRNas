@@ -16,13 +16,13 @@ const Hero = () => {
 				<Button text='discover more' variant='filled bold' />
 				<div className='hero__clients'>
 					<div className='hero__client'>
-						<img src='/images/client-1.png' alt='client-1' />
+						<img src='images/client-1.png' alt='client-1' />
 					</div>
 					<div className='hero__client'>
-						<img src='/images/client-2.png' alt='client-2' />
+						<img src='images/client-2.png' alt='client-2' />
 					</div>
 					<div className='hero__client'>
-						<img src='/images/client-3.png' alt='client-3' />
+						<img src='images/client-3.png' alt='client-3' />
 					</div>
 					<div className='hero__client-text'>
 						<span>32k+</span> Happy Client
@@ -31,7 +31,7 @@ const Hero = () => {
 				</div>
 			</div>
 			<div className='hero__column gradient-bg'>
-				<img src='/images/1.png' alt='1' />
+				<img src='images/1.png' alt='1' />
 			</div>
 		</section>
 	)
