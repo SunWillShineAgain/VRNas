@@ -9,8 +9,9 @@ import Page from './pages/Page.jsx'
 
 function App() {
 	// return <RouterProvider router={router} basename='/VRNas/' />
+	console.log('VITE_URL:', import.meta.env.VITE_URL)
 	return (
-		<BrowserRouter basename='/VRNas/'>
+		<BrowserRouter basename={import.meta.env.VITE_URL}>
 			<Routes>
 				<Route path='/' exact element={<MainPage />} />
 				<Route path='/service' element={<ServicePage />} />
