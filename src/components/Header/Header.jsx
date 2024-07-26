@@ -24,7 +24,7 @@ const Header = () => {
 			<div className='back-layer'></div>
 			<div className='container'>
 				<LogoIcon />
-				<TopMenu />
+				{/* <TopMenu /> */}
 				<Button text='Contact Us' />
 			</div>
 		</header>
