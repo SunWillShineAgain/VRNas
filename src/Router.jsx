@@ -7,11 +7,11 @@ import BlogPage from './pages/BlogPage.jsx'
 import AppLayout from './layout/AppLayout.jsx'
 
 export const router = createBrowserRouter([
+	// {
+	// element: <AppLayout />,
+	// errorElement: 'пиздА!',
+	// children: [
 	{
-		// element: <AppLayout />,
-		// errorElement: 'пиздА!',
-		// children: [
-		// 	{
 		path: '/',
 		element: <MainPage />,
 	},
