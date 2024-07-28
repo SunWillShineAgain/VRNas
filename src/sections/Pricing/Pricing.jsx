@@ -31,7 +31,7 @@ const Pricing = () => {
 			<div className='pricing__block'>
 				<PricingList data={pricing} />
 				<div className='pricing__image'>
-					<img src='/images/9.png' alt='9' />
+					<img src='images/9.png' alt='9' />
 				</div>
 				<div className='pricing__start'>
 					<div className='pricing__start-start'>Start from</div>

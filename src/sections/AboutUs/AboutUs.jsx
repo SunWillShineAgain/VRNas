@@ -8,7 +8,7 @@ const AboutUs = () => {
 	return (
 		<section className='about'>
 			<div className='about__column gradient-bg'>
-				<img src='/images/3.png' alt='' />
+				<img src='images/3.png' alt='' />
 				<div className='about__video'>
 					<SmallVideoSection image={imgSrc} />
 				</div>

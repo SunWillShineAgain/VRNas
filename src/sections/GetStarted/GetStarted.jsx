@@ -14,7 +14,7 @@ const GetStarted = () => {
 				title='How to get started'
 				tag='VR Service'
 				videoSrc='https://www.youtube.com/watch?v=dQw4w9WgXcQ'
-				thumbnail='/images/7.png'
+				thumbnail='images/7.png'
 			/>
 			<Button text='GET STARTED' variant='filled bold' />
 		</section>

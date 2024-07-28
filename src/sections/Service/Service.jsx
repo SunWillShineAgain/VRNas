@@ -6,17 +6,17 @@ const data1 = [
 	{
 		title: 'VR Development',
 		text: 'From concept to creation, our team of VR developers will bring your vision to life.',
-		iconPath: '/icons/service-1.png',
+		iconPath: 'icons/service-1.png',
 	},
 	{
 		title: 'VR Design',
 		text: 'Our talented VR designers will create immersive and engaging environments that will captivate your audience.',
-		iconPath: '/icons/service-2.png',
+		iconPath: 'icons/service-2.png',
 	},
 	{
 		title: 'VR Consulting',
 		text: 'Our VR consultants will work with you to ensure that your VR experience meets your goals and exceeds your expectations.',
-		iconPath: '/icons/service-3.png',
+		iconPath: 'icons/service-3.png',
 	},
 ]
 
@@ -24,17 +24,17 @@ const data2 = [
 	{
 		title: 'VR Games',
 		text: 'We offer a wide selection of VR games that are suitable for players of all ages and skill levels.',
-		iconPath: '/icons/service-4.png',
+		iconPath: 'icons/service-4.png',
 	},
 	{
 		title: 'VR Events',
 		text: 'Make your next event unforgettable with our VR event services.',
-		iconPath: '/icons/service-5.png',
+		iconPath: 'icons/service-5.png',
 	},
 	{
 		title: 'VR Entertainment',
 		text: 'Create a VR escape room, or offer VR experiences at a theme park, we have the expertise and experience to make it happen.',
-		iconPath: '/icons/service-6.png',
+		iconPath: 'icons/service-6.png',
 	},
 ]
 

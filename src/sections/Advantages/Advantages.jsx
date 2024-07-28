@@ -6,7 +6,7 @@ const Advantages = () => {
 		<section className='advantages'>
 			<div className='advantages__column'>
 				<div className='advantages__icon'>
-					<img src='/icons/advantage-1.png' alt='advantage-1' />
+					<img src='icons/advantage-1.png' alt='advantage-1' />
 				</div>
 				<div className='advantages__title'>Expertise</div>
 				<div className='advantages__text'>
@@ -17,7 +17,7 @@ const Advantages = () => {
 			</div>
 			<div className='advantages__column'>
 				<div className='advantages__icon'>
-					<img src='/icons/advantage-2.png' alt='advantage-2' />
+					<img src='icons/advantage-2.png' alt='advantage-2' />
 				</div>
 				<div className='advantages__title'>Customization</div>
 				<div className='advantages__text'>
@@ -28,7 +28,7 @@ const Advantages = () => {
 			</div>
 			<div className='advantages__column'>
 				<div className='advantages__icon'>
-					<img src='/icons/advantage-3.png' alt='advantage-3' />
+					<img src='icons/advantage-3.png' alt='advantage-3' />
 				</div>
 				<div className='advantages__title'>Service</div>
 				<div className='advantages__text'>

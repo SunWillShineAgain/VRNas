@@ -6,38 +6,38 @@ import ArticleSlider from '../../components/ArticleSlider/ArticleSlider'
 
 const recentArticles = [
 	{
-		image: '/images/article-1.png',
+		image: 'images/article-1.png',
 		tag: 'VR Education',
 		title: 'How VR is Revolutionizing the Classroom',
 	},
 	{
-		image: '/images/article-2.png',
+		image: 'images/article-2.png',
 		tag: 'VR Architecture',
 		title: 'Exploring New Worlds: The Benefits of VR Travel',
 	},
 	{
-		image: '/images/article-3.png',
+		image: 'images/article-3.png',
 		tag: 'VR Education',
 		title: 'The Future of Education: How VR is Revolutionizing the Classroom',
 	},
 	{
-		image: '/images/article-4.png',
+		image: 'images/article-4.png',
 		tag: 'VR Entertainment',
 		title:
 			'Making Events Memorable: The Power of VR for Corporate and Special Occasions',
 	},
 	{
-		image: '/images/article-1.png',
+		image: 'images/article-1.png',
 		tag: 'VR Event',
 		title: 'Exploring New Worlds: The Benefits of VR Travel',
 	},
 	{
-		image: '/images/article-2.png',
+		image: 'images/article-2.png',
 		tag: 'VR Education',
 		title: 'The Future of Education: How VR is Revolutionizing the Classroom',
 	},
 	{
-		image: '/images/article-3.png',
+		image: 'images/article-3.png',
 		tag: 'VR Entertainment',
 		title:
 			'Making Events Memorable: The Power of VR for Corporate and Special Occasions',
@@ -46,22 +46,22 @@ const recentArticles = [
 
 const popularArticles = [
 	{
-		image: '/images/article-slider-1.png',
+		image: 'images/article-slider-1.png',
 		tag: 'VR Games',
 		title: 'Entertainment Goes Virtual: The Rise of VR Gaming',
 	},
 	{
-		image: '/images/article-slider-2.png',
+		image: 'images/article-slider-2.png',
 		tag: 'VR Architecture',
 		title: 'The Future of Education: How VR is Revolutionizing the Classroom',
 	},
 	{
-		image: '/images/article-slider-3.png',
+		image: 'images/article-slider-3.png',
 		tag: 'VR Education',
 		title: 'Entertainment Goes Virtual: The Rise of VR Gaming',
 	},
 	{
-		image: '/images/article-slider-4.png',
+		image: 'images/article-slider-4.png',
 		tag: 'VR Entertainment',
 		title: 'Bringing Designs to Life: How VR is Changing Architecture',
 	},

@@ -29,7 +29,7 @@ const WhyUs = () => {
 			</div>
 			<div className='whyus__column'>
 				<div className='whyus__image gradient-bg'>
-					<img src='/images/5.png' alt='' />
+					<img src='images/5.png' alt='' />
 					<div className='whyus__video'>
 						<SmallVideoSection image={imgSrc} />
 					</div>

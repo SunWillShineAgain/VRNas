@@ -8,7 +8,7 @@ const Partners = () => {
 			<div className='gradient-caption'>Our Trusted Partners</div>
 			<h2 className='heading-h2'>Discover the Companies We Work With</h2>
 			<div className='partners__image'>
-				<img src='/images/10.png' alt='' />
+				<img src='images/10.png' alt='' />
 				<PartnersList />
 			</div>
 		</section>
