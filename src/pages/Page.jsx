@@ -1,8 +1,13 @@
 import React from 'react'
-import Layout from '../layout/Layout'
+import PageLayout from '../layout/PageLayout'
+import Subscribe from '../sections/Subscribe/Subscribe'
 
 const Page = () => {
-	return <Layout>Page</Layout>
+	return (
+		<PageLayout title='Page'>
+			<Subscribe />
+		</PageLayout>
+	)
 }
 
 export default Page

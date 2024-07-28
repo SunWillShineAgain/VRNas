@@ -1,12 +1,14 @@
 import React from 'react'
-import Layout from '../layout/Layout'
 import Service from '../sections/Service/Service'
+import PageLayout from '../layout/PageLayout'
+import Subscribe from '../sections/Subscribe/Subscribe'
 
 const ServicePage = () => {
 	return (
-		<Layout>
+		<PageLayout title='Service Page'>
 			<Service />
-		</Layout>
+			<Subscribe />
+		</PageLayout>
 	)
 }
 

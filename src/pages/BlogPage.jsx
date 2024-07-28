@@ -1,8 +1,13 @@
 import React from 'react'
-import Layout from '../layout/Layout'
+import PageLayout from '../layout/PageLayout'
+import Subscribe from '../sections/Subscribe/Subscribe'
 
 const Blog = () => {
-	return <Layout>Blog</Layout>
+	return (
+		<PageLayout title='Blog'>
+			<Subscribe />
+		</PageLayout>
+	)
 }
 
 export default Blog

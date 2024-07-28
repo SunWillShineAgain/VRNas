@@ -8,7 +8,6 @@ import 'swiper/css/navigation'
 import 'swiper/css/pagination'
 import Tag from '../Tag/Tag'
 import ArrowNextIcon from '../../assets/Icons/ArrowNextIcon'
-import Button from '../Button/Button'
 
 const ArticleSlider = ({ data }) => {
 	return (

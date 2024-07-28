@@ -145,6 +145,10 @@ img {
 	user-select: none;
 }
 
+.gradient-bg {
+	position: relative;
+}
+
 .gradient-bg::before {
 	content: '';
 	position: absolute;

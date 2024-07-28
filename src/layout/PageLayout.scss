@@ -1,0 +1,41 @@
+@import '../mixins/mixins.scss';
+
+.page {
+	text-align: center;
+	margin: 80px 0 150px;
+	padding-bottom: 77px;
+	border-bottom: 1px solid;
+	border-image: var(--color-gradient);
+	border-image-slice: 1;
+
+	&__title {
+		@include h1;
+
+		&.gradient-bg::before {
+			top: 50%;
+			left: 51%;
+			width: 60%;
+			height: 100%;
+			border-radius: 52% 48% 66% 31% / 63% 32% 68% 32%;
+			filter: blur(56px);
+			transform: translate(-50%, -50%) rotate(-20deg);
+		}
+
+		margin-bottom: 30px;
+	}
+
+	&__breadcrumps {
+		display: flex;
+		justify-content: center;
+		align-items: center;
+		gap: 10px;
+
+		span {
+			@include h11;
+		}
+
+		&-page {
+			@include body1;
+		}
+	}
+}

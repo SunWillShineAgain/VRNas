@@ -1,3 +1,5 @@
+@import '../../mixins/mixins.scss';
+
 .hero {
 	display: flex;
 	align-items: center;
@@ -17,9 +19,9 @@
 	}
 
 	&__title {
-		font-size: var(--h1);
+		@include h1;
+
 		margin-bottom: 12px;
-		font-weight: var(--bold);
 	}
 
 	&__text {

@@ -1,8 +1,15 @@
 import React from 'react'
-import Layout from '../layout/Layout'
+import PageLayout from '../layout/PageLayout'
+import Subscribe from '../sections/Subscribe/Subscribe'
+import Partners from '../sections/Partners/Partners'
 
 const About = () => {
-	return <Layout>About</Layout>
+	return (
+		<PageLayout title='About Us'>
+			<Partners />
+			<Subscribe />
+		</PageLayout>
+	)
 }
 
 export default About
