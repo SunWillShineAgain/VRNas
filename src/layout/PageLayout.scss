@@ -1,12 +1,14 @@
 @import '../mixins/mixins.scss';
 
 .page {
-	text-align: center;
-	margin: 80px 0 150px;
-	padding-bottom: 77px;
-	border-bottom: 1px solid;
-	border-image: var(--color-gradient);
-	border-image-slice: 1;
+	&__title-wrap {
+		text-align: center;
+		margin: 80px 0 150px;
+		padding-bottom: 77px;
+		border-bottom: 1px solid;
+		border-image: var(--color-gradient);
+		border-image-slice: 1;
+	}
 
 	&__title {
 		@include h1;
@@ -24,7 +26,7 @@
 		margin-bottom: 30px;
 	}
 
-	&__breadcrumps {
+	&__breadcrumbs {
 		display: flex;
 		justify-content: center;
 		align-items: center;
@@ -36,6 +38,7 @@
 
 		&-page {
 			@include body1;
+			margin: 0;
 		}
 	}
 }

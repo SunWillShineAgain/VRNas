@@ -10,7 +10,10 @@ const AboutUs = () => {
 			<div className='about__column gradient-bg'>
 				<img src='images/3.png' alt='' />
 				<div className='about__video'>
-					<SmallVideoSection image={imgSrc} />
+					<SmallVideoSection
+						image={imgSrc}
+						videoSrc='https://www.youtube.com/watch?v=dQw4w9WgXcQ'
+					/>
 				</div>
 			</div>
 			<div className='about__column'>

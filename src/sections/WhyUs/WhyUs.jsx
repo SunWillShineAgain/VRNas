@@ -19,7 +19,7 @@ const data = [
 	},
 ]
 
-const WhyUs = () => {
+const WhyUs = ({ sectionImgSrc }) => {
 	return (
 		<section className='whyus'>
 			<div className='whyus__column'>
@@ -29,9 +29,12 @@ const WhyUs = () => {
 			</div>
 			<div className='whyus__column'>
 				<div className='whyus__image gradient-bg'>
-					<img src='images/5.png' alt='' />
+					<img src={sectionImgSrc} alt='' />
 					<div className='whyus__video'>
-						<SmallVideoSection image={imgSrc} />
+						<SmallVideoSection
+							image={imgSrc}
+							videoSrc='https://www.youtube.com/watch?v=dQw4w9WgXcQ'
+						/>
 					</div>
 				</div>
 			</div>

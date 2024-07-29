@@ -1,0 +1,12 @@
+.team {
+	margin-top: 150px;
+
+	&__top {
+		display: flex;
+		justify-content: space-between;
+
+		button {
+			align-self: flex-end;
+		}
+	}
+}

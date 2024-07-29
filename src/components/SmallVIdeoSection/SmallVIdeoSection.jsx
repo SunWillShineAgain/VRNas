@@ -4,9 +4,9 @@ import PlayIcon from '../../assets/Icons/PlayIcon'
 
 /**
  * @param {string} image - thumbnail
- * @param {string} src - source video
+ * @param {string} videoSrc - source video
  */
-const SmallVIdeoSection = ({ image }) => {
+const SmallVIdeoSection = ({ image, videoSrc }) => {
 	return (
 		<div className='small-video-section'>
 			<img src={image} alt='videothumb' />

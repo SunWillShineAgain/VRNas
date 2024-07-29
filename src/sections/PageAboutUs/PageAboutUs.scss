@@ -1,0 +1,42 @@
+@import '../../mixins/mixins.scss';
+
+.page__aboutus {
+	display: flex;
+	position: relative;
+
+	&::before {
+		content: url(/web.png);
+		position: absolute;
+		left: -33%;
+		top: 33%;
+		z-index: -1;
+	}
+
+	.section-column {
+		flex-basis: 60%;
+		position: relative;
+
+		&-right {
+			flex-basis: 40%;
+			display: flex;
+			justify-content: flex-end;
+			align-items: flex-end;
+		}
+	}
+
+	&-text {
+		@include body1;
+
+		margin-top: 18px;
+	}
+
+	&-video {
+		position: absolute;
+		left: 0;
+		bottom: 0;
+	}
+
+	&-image {
+		height: 500px;
+	}
+}

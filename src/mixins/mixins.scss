@@ -52,10 +52,21 @@
 	font-weight: var(--regular);
 }
 
+@mixin h8 {
+	font-size: var(--h8);
+	font-weight: var(--semibold);
+}
+
 @mixin h9 {
 	font-size: var(--h9);
 	font-weight: var(--regular);
 	margin-bottom: 12px;
+}
+
+@mixin h10 {
+	font-size: var(--h10);
+	font-weight: var(--semibold);
+	line-height: 1.5;
 }
 
 @mixin h11 {

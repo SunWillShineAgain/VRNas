@@ -11,6 +11,7 @@ import Pricing from '../sections/Pricing/Pricing'
 import Partners from '../sections/Partners/Partners'
 import Articles from '../sections/Articles/Articles'
 import Subscribe from '../sections/Subscribe/Subscribe'
+import imgSrc from '/images/5.png'
 
 const MainPage = () => {
 	return (
@@ -19,7 +20,7 @@ const MainPage = () => {
 			<Advantages />
 			<AboutUs />
 			<Service />
-			<WhyUs />
+			<WhyUs sectionImgSrc={imgSrc} />
 			<GetStarted />
 			<Testimonial />
 			<Pricing />

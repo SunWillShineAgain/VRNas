@@ -27,7 +27,10 @@ const Hero = () => {
 					<div className='hero__client-text'>
 						<span>32k+</span> Happy Client
 					</div>
-					<SmallVIdeoSection image={imgSrc} />
+					<SmallVIdeoSection
+						image={imgSrc}
+						videoSrc='https://www.youtube.com/watch?v=dQw4w9WgXcQ'
+					/>
 				</div>
 			</div>
 			<div className='hero__column gradient-bg'>
