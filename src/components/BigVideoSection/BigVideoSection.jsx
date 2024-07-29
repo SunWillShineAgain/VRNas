@@ -6,6 +6,11 @@ import PlayIconFilled from '../../assets/Icons/PlayIconFilled'
 const BigVideoSection = ({ title, tag, videoSrc, thumbnail }) => {
 	const [play, setPlay] = useState(false)
 
+	const playVideo = () => {
+		setPlay(true)
+		console.log('RickRolled =)')
+	}
+
 	const path = videoSrc.split('v=')[1].split('&')[0]
 
 	return (
@@ -16,7 +21,7 @@ const BigVideoSection = ({ title, tag, videoSrc, thumbnail }) => {
 				<div className='video__title'>{title}</div>
 			</div>
 			<img src={thumbnail} alt={title} />
-			<div className='video__play-button' onClick={() => setPlay(true)}>
+			<div className='video__play-button' onClick={playVideo}>
 				<PlayIconFilled />
 			</div>
 			{play && (
