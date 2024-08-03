@@ -88,7 +88,7 @@ const Footer = () => {
 								</li>
 								<li>
 									<Link to='/terms' className='footer__menu-link'>
-										Tems & Conditions
+										Terms & Conditions
 									</Link>
 								</li>
 								<li>

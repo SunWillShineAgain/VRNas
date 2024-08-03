@@ -34,7 +34,7 @@ const NotFoundPage = () => {
 							us using the information provided on our contact page.
 						</p>
 					</div>
-					<a href='/'>
+					<a href={import.meta.env.VITE_URL}>
 						<Button text='back home' variant='filled bold' />
 					</a>
 				</div>
