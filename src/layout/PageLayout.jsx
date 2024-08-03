@@ -8,7 +8,7 @@ import './PageLayout.scss'
  * @param {string} title - page's title (and breadcrumb)
  * @param {string} cls - page's classname
  */
-const PageLayout = ({ title, cls, children }) => {
+const PageLayout = ({ title, cls = '', children }) => {
 	return (
 		<>
 			<Header />

@@ -52,7 +52,7 @@ const Footer = () => {
 									</Link>
 								</li>
 								<li>
-									<Link to='#' className='footer__menu-link'>
+									<Link to='/pricing' className='footer__menu-link'>
 										Pricing Plan
 									</Link>
 								</li>
@@ -62,12 +62,7 @@ const Footer = () => {
 									</Link>
 								</li>
 								<li>
-									<Link to='/blog' className='footer__menu-link'>
-										Blog
-									</Link>
-								</li>
-								<li>
-									<Link to='#' className='footer__menu-link'>
+									<Link to='/team' className='footer__menu-link'>
 										Our Team
 									</Link>
 								</li>
@@ -82,22 +77,22 @@ const Footer = () => {
 									</Link>
 								</li>
 								<li>
-									<Link to='#' className='footer__menu-link'>
+									<Link to='/contacts' className='footer__menu-link'>
 										Contact us
 									</Link>
 								</li>
 								<li>
-									<Link to='#' className='footer__menu-link'>
+									<Link to='/faq' className='footer__menu-link'>
 										FAQ
 									</Link>
 								</li>
 								<li>
-									<Link to='#' className='footer__menu-link'>
+									<Link to='/terms' className='footer__menu-link'>
 										Tems & Conditions
 									</Link>
 								</li>
 								<li>
-									<Link to='#' className='footer__menu-link'>
+									<Link to='/privacy' className='footer__menu-link'>
 										Privacy Policy
 									</Link>
 								</li>

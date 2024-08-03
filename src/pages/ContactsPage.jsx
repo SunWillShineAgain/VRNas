@@ -1,13 +1,14 @@
 import React from 'react'
+import './Pages.scss'
 import PageLayout from '../layout/PageLayout'
 import Subscribe from '../sections/Subscribe/Subscribe'
 
-const Blog = () => {
+const ContactsPage = () => {
 	return (
-		<PageLayout title='Blog'>
+		<PageLayout title='Contact Us' cls='contacts'>
 			<Subscribe />
 		</PageLayout>
 	)
 }
 
-export default Blog
+export default ContactsPage

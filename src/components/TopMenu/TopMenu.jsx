@@ -16,10 +16,10 @@ const TopMenu = () => {
 					<NavLink to='/service'>Service</NavLink>
 				</li>
 				<li>
-					<NavLink to='/page'>Page</NavLink>
+					<NavLink to='/pricing'>Pricing</NavLink>
 				</li>
 				<li>
-					<NavLink to='/blog'>Blog</NavLink>
+					<NavLink to='/team'>Team</NavLink>
 				</li>
 			</ul>
 		</nav>

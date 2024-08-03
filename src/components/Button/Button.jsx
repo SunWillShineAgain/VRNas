@@ -3,14 +3,18 @@ import './Button.scss'
 
 /**
  * @param {string} text - button's text
- * @param {string} variant - classname (bold, filled)
+ * @param {string} variant - classname (bold, filled, filter)
  */
-const Button = ({ text, variant }) => {
+const Button = ({ text, variant, onClickHandler }) => {
+	const clickHandler = () => {
+		console.log(`Button clicked: ${text}`)
+
+		if (onClickHandler) {
+			onClickHandler()
+		}
+	}
 	return (
-		<button
-			onClick={() => console.log(`Button clicked: ${text}`)}
-			className={variant}
-		>
+		<button onClick={clickHandler} className={variant}>
 			{text}
 		</button>
 	)

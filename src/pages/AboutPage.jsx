@@ -10,7 +10,7 @@ import Team from '../sections/Team/Team'
 import FAQ from '../sections/FAQ/FAQ'
 import './Pages.scss'
 
-const About = () => {
+const AboutPage = () => {
 	return (
 		<PageLayout title='About Us' cls='about'>
 			<PageAboutUs />
@@ -24,4 +24,4 @@ const About = () => {
 	)
 }
 
-export default About
+export default AboutPage

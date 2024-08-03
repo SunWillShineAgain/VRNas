@@ -1,17 +1,19 @@
 @import '../../mixins/mixins.scss';
 
 .faq {
-	margin: 0 200px;
-
-	&.gradient-bg::before {
-		top: 50%;
-		left: 75%;
-		width: 100%;
-		height: 50%;
+	&__section {
+		margin: 0 200px;
 	}
 
 	&__text {
 		text-align: center;
+
+		&.gradient-bg::before {
+			top: 50%;
+			left: 75%;
+			width: 100%;
+			height: 50%;
+		}
 	}
 
 	&__description {

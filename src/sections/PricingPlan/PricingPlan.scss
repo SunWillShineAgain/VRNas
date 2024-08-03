@@ -1,0 +1,15 @@
+@import '../../mixins/mixins.scss';
+
+.pricing-plan {
+	margin-top: 150px;
+
+	&__top {
+		text-align: center;
+
+		&-text {
+			@include body3;
+
+			margin: 16px 228px 0;
+		}
+	}
+}

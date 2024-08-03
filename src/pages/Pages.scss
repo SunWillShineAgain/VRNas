@@ -1,7 +1,99 @@
+@import '../mixins/mixins.scss';
+
 .page {
 	&-about {
 		.whyus {
 			flex-direction: row-reverse;
+		}
+	}
+
+	&-pricing {
+		.faq__section {
+			margin-top: 150px;
+		}
+		.whyus {
+			flex-direction: row-reverse;
+		}
+	}
+
+	&-team {
+		.team__list {
+			grid-template-columns: repeat(3, 1fr);
+
+			img {
+				width: 100%;
+			}
+		}
+	}
+
+	&-not-found {
+		display: flex;
+		margin-top: 100px;
+
+		button {
+			margin-top: 25px;
+		}
+	}
+}
+
+.not-found {
+	&-text {
+		margin-top: 16px;
+	}
+}
+
+.terms,
+.privacy,
+.faq {
+	margin: 0 200px;
+	position: relative;
+
+	&__top {
+		text-align: center;
+
+		&-text {
+			margin: 24px 70px 0;
+		}
+	}
+
+	&::before {
+		content: url(/images/13.png);
+		position: absolute;
+		left: -70%;
+		transform: rotateY(-180deg);
+		-webkit-transform: rotateY(-180deg);
+		-moz-transform: rotateY(-180deg);
+		-ms-transform: rotateY(-180deg);
+		-o-transform: rotateY(-180deg);
+	}
+
+	&::after {
+		content: url(/images/13.png);
+		top: 0;
+		position: absolute;
+		right: -70%;
+	}
+}
+
+[class^='page-'] {
+	ul {
+		list-style: disc inside;
+		margin-bottom: 7px;
+	}
+
+	.text {
+		@include body1;
+
+		margin-top: 48px;
+	}
+
+	.title {
+		@include h8;
+
+		margin-bottom: 16px;
+
+		&:not(:first-child) {
+			margin-top: 32px;
 		}
 	}
 }

@@ -1,0 +1,30 @@
+.faq {
+	&__filters {
+		margin: 32px 0;
+		display: flex;
+		justify-content: center;
+		gap: 24px;
+
+		button {
+			opacity: 0.6;
+
+			&.active {
+				opacity: 1;
+			}
+
+			&:hover {
+				opacity: 1;
+			}
+
+			transition: opacity 0.3s ease;
+			-webkit-transition: opacity 0.3s ease;
+			-moz-transition: opacity 0.3s ease;
+			-ms-transition: opacity 0.3s ease;
+			-o-transition: opacity 0.3s ease;
+		}
+	}
+
+	&-filtered {
+		margin-top: 32px;
+	}
+}

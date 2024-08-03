@@ -13,6 +13,7 @@ button {
 	cursor: pointer;
 	transition: background 0.3s ease-in-out;
 	align-self: flex-start;
+	z-index: 3;
 
 	&::before {
 		content: '';
@@ -44,6 +45,18 @@ button {
 		&:hover::before {
 			background: var(--color-gradient);
 			filter: blur(20px);
+		}
+	}
+
+	&.filter {
+		text-transform: uppercase;
+
+		&::before {
+			background: transparent;
+		}
+
+		&:hover::before {
+			background: transparent;
 		}
 	}
 }

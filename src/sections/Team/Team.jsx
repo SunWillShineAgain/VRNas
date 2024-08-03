@@ -3,7 +3,7 @@ import './Team.scss'
 import Button from '../../components/Button/Button'
 import TeamList from '../../components/TeamList/TeamList'
 
-const team = [
+const teamItems = [
 	{
 		image: 'images/team-1.png',
 		name: 'Bondan Prabowo',
@@ -38,7 +38,7 @@ const team = [
 	},
 ]
 
-const Team = () => {
+const Team = ({ team, noBtn }) => {
 	return (
 		<section className='team'>
 			<div className='team__top'>
@@ -46,9 +46,9 @@ const Team = () => {
 					<div className='gradient-caption'>OUR TEAM</div>
 					<h2 className='heading-h2'>Our Professionals Team</h2>
 				</div>
-				<Button text='SEE ALL' variant='bold' />
+				{!noBtn && <Button text='SEE ALL' variant='bold' />}
 			</div>
-			<TeamList data={team} />
+			<TeamList data={team || teamItems} />
 		</section>
 	)
 }

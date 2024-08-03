@@ -31,6 +31,10 @@
 
 			&.active &-title svg {
 				transform: rotate(-180deg);
+				-webkit-transform: rotate(-180deg);
+				-moz-transform: rotate(-180deg);
+				-ms-transform: rotate(-180deg);
+				-o-transform: rotate(-180deg);
 			}
 
 			&-title {
@@ -43,6 +47,10 @@
 				svg {
 					transform-origin: center center;
 					transition: transform 0.3s ease;
+					-webkit-transition: transform 0.3s ease;
+					-moz-transition: transform 0.3s ease;
+					-ms-transition: transform 0.3s ease;
+					-o-transition: transform 0.3s ease;
 				}
 			}
 
@@ -56,6 +64,14 @@
 				overflow: hidden;
 				opacity: 0;
 				cursor: default;
+				-webkit-transition: grid-template-rows 0.3s ease, padding-top 0.3s ease,
+					margin-top 0.3s ease;
+				-moz-transition: grid-template-rows 0.3s ease, padding-top 0.3s ease,
+					margin-top 0.3s ease;
+				-ms-transition: grid-template-rows 0.3s ease, padding-top 0.3s ease,
+					margin-top 0.3s ease;
+				-o-transition: grid-template-rows 0.3s ease, padding-top 0.3s ease,
+					margin-top 0.3s ease;
 
 				p {
 					min-height: 0;

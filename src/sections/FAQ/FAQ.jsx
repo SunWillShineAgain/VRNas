@@ -27,8 +27,8 @@ const faq = [
 
 const FAQ = () => {
 	return (
-		<div className='faq gradient-bg'>
-			<div className='faq__text'>
+		<section className='faq__section'>
+			<div className='faq__text gradient-bg'>
 				<div className='gradient-caption'>FAQ</div>
 				<h2 className='heading-h2'>Frequently Asked Questions</h2>
 				<div className='faq__description'>
@@ -38,7 +38,7 @@ const FAQ = () => {
 				</div>
 			</div>
 			<FAQList data={faq} />
-		</div>
+		</section>
 	)
 }
 

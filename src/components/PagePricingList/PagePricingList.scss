@@ -1,0 +1,65 @@
+@import '../../mixins/mixins.scss';
+
+.page-pricing-list {
+	margin-top: 40px;
+	display: flex;
+	justify-content: space-between;
+	gap: 60px;
+
+	&__item {
+		flex-grow: 1;
+		padding: 35px;
+		background-color: var(--color-black-50);
+		border-radius: 6px;
+		-webkit-border-radius: 6px;
+		-moz-border-radius: 6px;
+		-ms-border-radius: 6px;
+		-o-border-radius: 6px;
+		display: flex;
+		flex-direction: column;
+		gap: 12px;
+		border: 1px solid transparent;
+		background-origin: border-box;
+		box-shadow: inset 0 100vw var(--color-black-50);
+
+		&-name {
+			@include h9;
+		}
+
+		&-price {
+			@include h1;
+			color: var(--color-white);
+
+			span {
+				@include body1;
+			}
+		}
+
+		&-description {
+			@include body3;
+		}
+
+		&-benefits {
+			margin-top: 16px;
+			display: flex;
+			flex-direction: column;
+			gap: 16px;
+		}
+
+		&-benefit {
+			@include h11;
+
+			display: flex;
+			gap: 6px;
+		}
+
+		button {
+			margin-top: 30px;
+			width: 100%;
+		}
+
+		&:hover {
+			background-image: var(--color-gradient);
+		}
+	}
+}
