@@ -9,6 +9,7 @@ import GithubIcon from '../../assets/Icons/GithubIcon'
 import LocationIcon from '../../assets/Icons/LocationIcon'
 import EmailIcon from '../../assets/Icons/EmailIcon'
 import PhoneIcon from '../../assets/Icons/PhoneIcon'
+import RoundGradientIcon from '../RoundGradientIcon/RoundGradientIcon'
 
 const Footer = () => {
 	return (
@@ -20,26 +21,34 @@ const Footer = () => {
 							<LogoIcon />
 						</Link>
 						<div className='footer__social'>
-							<div className='footer__social-item'>
-								<Link to='#' className='footer__social-link'>
-									<TwitterIcon />
-								</Link>
-							</div>
-							<div className='footer__social-item'>
-								<Link to='#' className='footer__social-link'>
-									<FacebookIcon />
-								</Link>
-							</div>
-							<div className='footer__social-item'>
-								<Link to='#' className='footer__social-link'>
-									<InstagramIcon />
-								</Link>
-							</div>
-							<div className='footer__social-item'>
-								<Link to='#' className='footer__social-link'>
-									<GithubIcon />
-								</Link>
-							</div>
+							<Link
+								to='https://x.com'
+								target='_blank'
+								className='footer__social-link'
+							>
+								<RoundGradientIcon size={46} icon={<TwitterIcon />} />
+							</Link>
+							<Link
+								to='https://facebook.com'
+								target='_blank'
+								className='footer__social-link'
+							>
+								<RoundGradientIcon size={46} icon={<FacebookIcon />} />
+							</Link>
+							<Link
+								to='https://instagram.com'
+								target='_blank'
+								className='footer__social-link'
+							>
+								<RoundGradientIcon size={46} icon={<InstagramIcon />} />
+							</Link>
+							<Link
+								to='https://github.com'
+								target='_blank'
+								className='footer__social-link'
+							>
+								<RoundGradientIcon size={46} icon={<GithubIcon />} />
+							</Link>
 						</div>
 					</div>
 					<div className='footer__column-right'>

@@ -1,0 +1,55 @@
+@import '../../mixins/mixins.scss';
+
+.getintouch {
+	margin-top: 150px;
+	display: flex;
+	align-items: center;
+
+	&__image,
+	&__right {
+		flex: 1;
+	}
+
+	&__text {
+		@include body1;
+
+		margin: 16px 0 32px;
+	}
+
+	&__form {
+		display: grid;
+		gap: 24px 32px;
+		grid-template-columns: repeat(2, 1fr);
+
+		input,
+		textarea {
+			padding: 10px 15px;
+			border-image-slice: 1;
+			background: var(--color-black-50);
+			border: 1px solid transparent;
+			background-image: var(--color-wb-gradient);
+			background-origin: border-box;
+			box-shadow: inset 0 100vw var(--color-black);
+			color: var(--color-white);
+
+			&:focus {
+				border-image: var(--color-gradient);
+				border-image-slice: 1;
+			}
+
+			&:-webkit-autofill,
+			&:-webkit-autofill:hover,
+			&:-webkit-autofill:focus {
+				-webkit-text-fill-color: var(--color-white);
+				-webkit-box-shadow: inset 0 100vw var(--color-black);
+				outline-color: red;
+			}
+		}
+
+		textarea {
+			grid-column: span 2;
+			margin-bottom: 8px;
+			resize: none;
+		}
+	}
+}
