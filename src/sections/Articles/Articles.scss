@@ -1,4 +1,4 @@
-@import '../../mixins/mixins.scss';
+@import '../../scss/index.scss';
 
 .articles {
 	margin-top: 0;
@@ -42,7 +42,7 @@
 	}
 
 	&__title {
-		@include h6;
+		@extend %h6;
 
 		margin-bottom: 32px;
 	}

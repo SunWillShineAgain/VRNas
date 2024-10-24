@@ -1,80 +1,80 @@
-@mixin body1 {
+%body1 {
 	font-size: var(--body1);
 	color: var(--color-grey2);
 	line-height: 1.75;
 	font-weight: var(--light);
 }
 
-@mixin body2 {
+%body2 {
 	font-size: var(--body2);
 	color: var(--color-grey1);
 	font-weight: var(--regular);
 	line-height: 2;
 }
 
-@mixin body3 {
+%body3 {
 	font-size: var(--body3);
 	color: var(--color-grey1);
 	font-weight: var(--regular);
 	line-height: 1.75;
 }
 
-@mixin body4 {
+%body4 {
 	font-size: var(--body4);
 	color: var(--color-grey2);
 	font-weight: var(--regular);
 	line-height: 1.75;
 }
 
-@mixin h1 {
+%h1 {
 	font-size: var(--h1);
 	font-weight: var(--bold);
 }
 
-@mixin h2 {
+%h2 {
 	font-size: var(--h2);
 	font-weight: var(--semibold);
 }
 
-@mixin h3 {
+%h3 {
 	font-size: var(--h3);
 	font-weight: var(--semibold);
 	line-height: 1.5;
 }
 
-@mixin h5 {
+%h5 {
 	font-size: var(--h5);
 	font-weight: var(--semibold);
 }
 
-@mixin h6 {
+%h6 {
 	font-size: var(--h6);
 	font-weight: var(--semibold);
 }
 
-@mixin h7 {
+%h7 {
 	font-size: var(--h7);
 	font-weight: var(--regular);
 }
 
-@mixin h8 {
+%h8 {
 	font-size: var(--h8);
 	font-weight: var(--semibold);
 }
 
-@mixin h9 {
+%h9 {
 	font-size: var(--h9);
 	font-weight: var(--regular);
 	margin-bottom: 12px;
 }
 
-@mixin h10 {
+%h10 {
 	font-size: var(--h10);
 	font-weight: var(--semibold);
 	line-height: 1.5;
 }
 
-@mixin h11 {
+%h11 {
 	font-size: var(--h11);
 	font-weight: var(--semibold);
 }

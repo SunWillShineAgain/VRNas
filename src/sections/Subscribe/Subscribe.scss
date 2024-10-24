@@ -1,4 +1,4 @@
-@import '../../mixins/mixins.scss';
+@import '../../scss/index.scss';
 
 .subscribe {
 	margin-top: 150px;
@@ -10,7 +10,7 @@
 	border-radius: 4px;
 
 	&__text {
-		@include h3;
+		@extend %h3;
 
 		flex-basis: 50%;
 	}

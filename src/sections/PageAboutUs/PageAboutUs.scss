@@ -1,4 +1,4 @@
-@import '../../mixins/mixins.scss';
+@import '../../scss/index.scss';
 
 .page__aboutus {
 	display: flex;
@@ -25,7 +25,7 @@
 	}
 
 	&-text {
-		@include body1;
+		@extend %body1;
 
 		margin-top: 18px;
 	}

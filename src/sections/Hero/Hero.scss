@@ -1,4 +1,4 @@
-@import '../../mixins/mixins.scss';
+@import '../../scss/index.scss';
 
 .hero {
 	display: flex;
@@ -19,7 +19,7 @@
 	}
 
 	&__title {
-		@include h1;
+		@extend %h1;
 
 		margin-bottom: 12px;
 	}

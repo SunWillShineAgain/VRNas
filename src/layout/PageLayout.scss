@@ -1,4 +1,4 @@
-@import '../mixins/mixins.scss';
+@import '../scss/index.scss';
 
 .page {
 	&__title-wrap {
@@ -11,7 +11,7 @@
 	}
 
 	&__title {
-		@include h1;
+		@extend %h1;
 
 		&.gradient-bg::before {
 			top: 50%;
@@ -33,11 +33,11 @@
 		gap: 10px;
 
 		span {
-			@include h11;
+			@extend %h11;
 		}
 
 		&-page {
-			@include body1;
+			@extend %body1;
 			margin: 0;
 		}
 	}

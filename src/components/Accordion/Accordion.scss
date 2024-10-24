@@ -1,4 +1,4 @@
-@import '../../mixins/mixins.scss';
+@import '../../scss/index.scss';
 
 .accordion {
 	display: flex;
@@ -30,7 +30,7 @@
 		}
 
 		&-text {
-			@include body3;
+			@extend %body3;
 
 			display: grid;
 			grid-template-rows: 0fr;

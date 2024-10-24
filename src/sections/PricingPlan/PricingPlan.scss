@@ -1,4 +1,4 @@
-@import '../../mixins/mixins.scss';
+@import '../../scss/index.scss';
 
 .pricing-plan {
 	margin-top: 150px;
@@ -7,7 +7,7 @@
 		text-align: center;
 
 		&-text {
-			@include body3;
+			@extend %body3;
 
 			margin: 16px 228px 0;
 		}

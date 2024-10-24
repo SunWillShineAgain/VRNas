@@ -1,4 +1,4 @@
-@import '../../mixins/mixins.scss';
+@import '../../scss/index.scss';
 
 .article {
 	&__list {
@@ -51,7 +51,7 @@
 			}
 
 			&-title {
-				@include h9;
+				@extend %h9;
 
 				margin-bottom: 0;
 

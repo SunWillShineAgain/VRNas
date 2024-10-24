@@ -1,4 +1,4 @@
-@import '../../mixins/mixins.scss';
+@import '../../scss/index.scss';
 
 .pricing {
 	&__list {
@@ -18,11 +18,11 @@
 			}
 
 			&-descr {
-				@include body3;
+				@extend %body3;
 			}
 
 			&-title {
-				@include h9;
+				@extend %h9;
 			}
 		}
 

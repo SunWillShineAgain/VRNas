@@ -1,4 +1,4 @@
-@import '../../mixins/mixins.scss';
+@import '../../scss/index.scss';
 
 .testimonial {
 	&__list {
@@ -80,13 +80,13 @@
 				}
 
 				&-text {
-					@include body4;
+					@extend %body4;
 
 					margin-bottom: 8px;
 				}
 
 				&-caption {
-					@include body4;
+					@extend %body4;
 
 					position: relative;
 					display: inline-block;

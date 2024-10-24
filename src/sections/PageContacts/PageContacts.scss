@@ -1,4 +1,4 @@
-@import '../../mixins/mixins.scss';
+@import '../../scss/index.scss';
 
 .page__contacts {
 	display: flex;
@@ -28,7 +28,7 @@
 		}
 
 		&-link {
-			@include h8;
+			@extend %h8;
 
 			text-align: center;
 		}

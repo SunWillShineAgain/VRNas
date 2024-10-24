@@ -1,4 +1,4 @@
-@import '../../mixins/mixins.scss';
+@import '../../scss/index.scss';
 
 .getintouch {
 	margin-top: 150px;
@@ -11,7 +11,7 @@
 	}
 
 	&__text {
-		@include body1;
+		@extend %body1;
 
 		margin: 16px 0 32px;
 	}

@@ -1,4 +1,4 @@
-@import '../../mixins/mixins.scss';
+@import '../../scss/index.scss';
 
 .service {
 	margin-top: 150px;
@@ -10,7 +10,7 @@
 	}
 
 	&__text {
-		@include body1;
+		@extend %body1;
 
 		flex-basis: 50%;
 	}

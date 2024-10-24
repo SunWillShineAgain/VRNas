@@ -1,4 +1,4 @@
-@import '../../mixins/mixins.scss';
+@import '../../scss/index.scss';
 
 .faq {
 	position: relative;
@@ -55,7 +55,7 @@
 			}
 
 			&-text {
-				@include body3;
+				@extend %body3;
 
 				display: grid;
 				grid-template-rows: 0fr;

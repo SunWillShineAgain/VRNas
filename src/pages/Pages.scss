@@ -1,4 +1,4 @@
-@import '../mixins/mixins.scss';
+@import '../scss/index.scss';
 
 .page {
 	&-about {
@@ -92,13 +92,13 @@
 	}
 
 	.text {
-		@include body1;
+		@extend %body1;
 
 		margin-top: 48px;
 	}
 
 	.title {
-		@include h8;
+		@extend %h8;
 
 		margin-bottom: 16px;
 

@@ -1,4 +1,4 @@
-@import '../../mixins/mixins.scss';
+@import '../../scss/index.scss';
 
 .faq {
 	&__section {
@@ -17,7 +17,7 @@
 	}
 
 	&__description {
-		@include body1;
+		@extend %body1;
 
 		margin: 24px 0 48px;
 	}

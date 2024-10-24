@@ -1,4 +1,4 @@
-@import '../../mixins/mixins.scss';
+@import '../../scss/index.scss';
 
 .about {
 	margin-top: 150px;
@@ -19,7 +19,7 @@
 	}
 
 	&__text {
-		@include body1;
+		@extend %body1;
 
 		margin: 12px 0 24px;
 	}

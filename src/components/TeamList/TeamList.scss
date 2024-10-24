@@ -1,4 +1,4 @@
-@import '../../mixins/mixins.scss';
+@import '../../scss/index.scss';
 
 .team__list {
 	margin-top: 40px;
@@ -49,11 +49,11 @@
 		}
 
 		&-name {
-			@include h10;
+			@extend %h10;
 		}
 
 		&-role {
-			@include body4;
+			@extend %body4;
 		}
 
 		&-social {

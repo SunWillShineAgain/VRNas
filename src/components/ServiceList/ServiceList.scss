@@ -1,4 +1,4 @@
-@import '../../mixins/mixins.scss';
+@import '../../scss/index.scss';
 
 .service {
 	&__list {
@@ -53,12 +53,12 @@
 			}
 
 			&-title {
-				@include h7;
+				@extend %h7;
 				margin-bottom: 12px;
 			}
 
 			&-text {
-				@include body2;
+				@extend %body2;
 			}
 		}
 
